@@ -1,0 +1,13 @@
+{% load menu_tags %}
+
+
+<ul class="menu">
+    {% for item in menu_items %}
+    <li {% if item.url == current_url %}class="active" {% endif %}>
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% if item.children.exists and item.is_expanded %}
+            {% include "menu.html" with menu_items=item.children.all current_url=current_url %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from apps.tree_menu.views import menu_page
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.tree_menu.urls')),
+    path('<path:menu_path>/', menu_page, name='menu_page'),
 ]

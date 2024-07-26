@@ -1,0 +1,7 @@
+{% extends "home.html" %}
+{% load menu_tags %}
+
+{% block content %}
+    <h1>{{ current_url }}</h1>
+    {% draw_menu 'main_menu' %}
+{% endblock %}

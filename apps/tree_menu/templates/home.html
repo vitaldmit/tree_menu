@@ -1,36 +1,7 @@
+{% extends "base.html" %}
 {% load menu_tags %}
 
-<!DOCTYPE html>
-<html lang="ru">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <style>
-        .menu {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .menu li {
-            margin-bottom: 5px;
-        }
-
-        .menu .active>a {
-            font-weight: bold;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Добро пожаловать на главную страницу</h1>
-
-    <h2>Главное меню:</h2>
-    {% draw_menu 'main_menu' %}
-
-    <h2>Дополнительное меню (если есть):</h2>
-    {% draw_menu 'additional_menu' %}
-</body>
-
-</html>
+{% block content %}
+    Главная
+{% endblock %}
