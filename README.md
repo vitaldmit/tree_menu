@@ -25,3 +25,6 @@ git clone https://github.com/vitaliy-ukiru/tree_menu.git .
 python manage.py migrate
 python manage.py runserver
 ```
+
+## Скриншот
+![Screenshot 2024-07-27 17 32 33](https://github.com/user-attachments/assets/0817d6ea-010e-4adf-8911-447e7d8891f0)
