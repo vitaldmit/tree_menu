@@ -13,3 +13,15 @@
 `{% draw_menu 'main_menu' %}`
 
 При выполнении задания из библиотек использован только `Django` и стандартная библиотека `Python`.
+
+## Установка и запуск
+```bash
+python -m venv tree_menu
+cd tree_menu
+source bin/activate
+pip install -r requirements.txt
+mkdir src; cd src
+git clone https://github.com/vitaliy-ukiru/tree_menu.git .
+python manage.py migrate
+python manage.py runserver
+```

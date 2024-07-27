@@ -72,7 +72,17 @@
 
     {% block content %}{% endblock %}
 
+    <h2>Главное Меню</h2>
     {% draw_menu 'main_menu' %}
+
+    <h2>Меню каталог</h2>
+    {% draw_menu 'catalog_menu' %}
+
+    <h2>Меню Инфо</h2>
+    {% draw_menu 'info_menu' %}
+
+    <h2>Меню Акканут</h2>
+    {% draw_menu 'account_menu' %}
 </body>
 
 </html>

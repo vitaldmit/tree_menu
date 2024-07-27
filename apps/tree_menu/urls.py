@@ -3,5 +3,5 @@ from .views import home
 
 
 urlpatterns = [
-    path('', home, name='home'),  # Добавляем путь для главной страницы
+    path('', home, name='home'),
 ]
