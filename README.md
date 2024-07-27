@@ -27,4 +27,4 @@ python manage.py runserver
 ```
 
 ## Скриншот
-![Screenshot 2024-07-27 17 32 33](https://github.com/user-attachments/assets/0817d6ea-010e-4adf-8911-447e7d8891f0)
+![Screenshot 2024-07-27 18 23 05](https://github.com/user-attachments/assets/f07443dd-5386-4d93-a021-b70fcfdc4e69)
